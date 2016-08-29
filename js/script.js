@@ -343,7 +343,7 @@ $(document).ready(function() {
 	var today = new Date();
 
 	$('#countdown').countdown({until: theday, format: 'WDHMS'});
-	$('#countdown').countdown($.countdown.regionalOptions['custom-label']);
+	//$('#countdown').countdown($.countdown.regionalOptions['custom-label']);
 
 	$('#date-countdown').countdown({until: theday, format: 'DHMS'});
 	$('#nos-casamos').hide();

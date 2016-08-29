@@ -62,7 +62,7 @@
 			map: map,
 			// label: 'Hello World!',
 			animation: google.maps.Animation.DROP,
-			icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'
+			icon: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png'
 		});
 
 		var markerCatedral = new google.maps.Marker({
@@ -70,7 +70,7 @@
 	      map: map,
 	      title: 'Hello World!',
 		  animation: google.maps.Animation.DROP,
-		  icon: 'http://maps.google.com/mapfiles/ms/icons/orange-dot.png'
+		  icon: 'https://maps.google.com/mapfiles/ms/icons/orange-dot.png'
 	    });
 
 		var markerSalon = new google.maps.Marker({
@@ -78,7 +78,7 @@
 			map: map,
 			title: 'Hello World!',
 			animation: google.maps.Animation.DROP,
-			icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
+			icon: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png'
 		});
 
 		//

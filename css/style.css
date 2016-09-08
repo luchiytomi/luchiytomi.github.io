@@ -1602,6 +1602,11 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	border-top:medium double black;
 	border-bottom:medium double black;
 }
+.banner-text.light.whitey{
+	color:#FFF;
+	border-top:medium double white;
+	border-bottom:medium double white;
+}
 
 .banner-text.light *{
 	color:black;

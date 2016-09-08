@@ -78,7 +78,6 @@
 
 
 $(document).ready(function() {
-
 	// 01. BROWSER AGENT FUNCTION
 	//==================================================================================
 
@@ -98,6 +97,17 @@ $(document).ready(function() {
 		if (window.navigator.userAgent.indexOf("iPhone") > 0 || window.navigator.userAgent.indexOf("iPad") > 0 || window.navigator.userAgent.indexOf("iPod") > 0){
 			return 1;
 		}
+	}
+
+	if(window.innerWidth < 1000) {
+		document.getElementById("homeimg").style = "background-image:url(images/12_1000.jpg); background-position:top center";
+	}
+
+	if(device.tablet() || device.mobile()) {
+		document.getElementById("banner-date").style = "color: white";
+		document.getElementById("nombres").style = "color: white";
+		document.getElementById("banner-home").className += " whitey";
+		document.getElementById("homeimg").style = "background-image:url(images/12_mobile.jpg); background-position:top center";
 	}
 
 	// 01.3 Check FIREFOX

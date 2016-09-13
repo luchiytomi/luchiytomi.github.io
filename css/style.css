@@ -1598,12 +1598,22 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 .banner-text.light{
-	color:#FFF;
+	color: black;
 	border-top:medium double black;
 	border-bottom:medium double black;
 }
+.banner-text.light2{
+	color: white;
+	border-top:medium double white;
+	border-bottom:medium double white;
+}
 .banner-text.light.whitey{
 	color:#FFF;
+	border-top:medium double white;
+	border-bottom:medium double white;
+}
+.banner-text.light.whitey2{
+	color:white;
 	border-top:medium double white;
 	border-bottom:medium double white;
 }
@@ -1611,7 +1621,9 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 .banner-text.light *{
 	color:black;
 }
-
+.banner-text.light2 *{
+	color:white;
+}
 .banner-text.dark{
 	color:#6a6a6a;
 	border-top:medium double #6a6a6a;
@@ -2582,7 +2594,7 @@ form .has-error .btn-primary{
 /* 12.5 Footer Section				 			 */
 /* ----------------------------------------------*/
 footer .image-divider.fixed-height{
-	height:550px;
+	height:1050px;
 }
 
 #thank-you{
@@ -2843,7 +2855,7 @@ footer .image-divider.fixed-height{
 /* 14.6 Don't Miss It / Countdown Section		 */
 /* ----------------------------------------------*/
 h2#dont-miss-it-title{
-	padding-top: 30px;
+	padding-top: 120px;
 	font-size:42px;
 	margin-bottom:30px;
 	font-family: 'Pacifico';/*, cursive;*/
@@ -2918,7 +2930,9 @@ h2#dont-miss-it-title{
 /* 14.10 Gift Section							 */
 /* ----------------------------------------------*/
 #gift-section{
-	padding: 140px 0;
+	/*padding: 140px 0;*/
+	padding-top: 30px;
+	padding-bottom: 40px;
 	background-color:#FFF
 }
 

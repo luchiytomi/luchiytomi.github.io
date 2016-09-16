@@ -193,11 +193,11 @@ $(document).ready(function() {
 
 	// 04. PACE PRELOADER
 	//==================================================================================
-	Pace.on('done', function () {
+	// Pace.on('done', function () {
 		$('#preloader').hide();
-	});
-
-	Pace.on('hide', function () {
+	// });
+	//
+	// Pace.on('hide', function () {
 
 		// 04.1 Gallery - Masonry
 		//------------------------------------------------------------------------------
@@ -325,7 +325,7 @@ $(document).ready(function() {
 		 	});
 	 	}
 
-	}); // END of Pace on Hide
+	// }); // END of Pace on Hide
 
 
 	// 05. PRELOADER HEART ANIMATION (IE10 / 11)

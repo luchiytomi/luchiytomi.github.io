@@ -1,4 +1,3 @@
-'use strict';
 
 /*==============================
 	- Template Name: FOREVER - Responsive HTML Wedding Template

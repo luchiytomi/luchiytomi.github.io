@@ -143,7 +143,7 @@
                         	</li>
 
 							<li class="first-child menuFix" style="right: 10%">
-                            	<a href="#where-when">DONDE &amp; CUANDO</a>
+                            	<a href="#where-when-anchor">DONDE &amp; CUANDO</a>
                             </li>
 
                             <li class="first-child " style="left: 0%">
@@ -152,7 +152,7 @@
 
 
 							<li class="first-child" style="left: 7%">
-                            	<a href="#gift-section">REGALOS</a>
+                            	<a href="#gift-section-anchor">REGALOS</a>
                             </li>
 
                 		</ul>
@@ -193,7 +193,9 @@
 							</div>
 
 						 </div>
+						 <div id="where-when-anchor">
 
+						 </div>
 				</div>
 		</section>
 
@@ -307,7 +309,9 @@
                         <div class="col-md-6 animation fadeIn">
                         	<div id="map-canvas" style="border:15px solid #FFF; margin-top:0px;"></div>
                         </div>
+						<div id="attending-anchor">
 
+						</div>
                     </div> <!-- END of ROW-3 -->
 
 
@@ -336,7 +340,7 @@
 									Tomi y Luchi :)</p> -->
                                 </div>
 
-                                <div  class="text-center">
+                                <div id="gift-section-anchor" class="text-center">
                                 	<a href="http://tomiyluchi.rsvpify.com" target="_blank" class="smooth-scroll de-button outline medium animation fadeInUp">
 										RSVP
                                   	</a>
@@ -558,6 +562,16 @@
 		<script type="text/javascript" src="js/custom.js"></script>
 		<script type="text/javascript">
 			$('.first-child.menuFix').css({left:''});
+
+			if($(window).width() < 992) {
+				$('#nav-menu li').css({
+					right: '',
+					left: ''
+				});
+				$('#dont-miss-it-title').css({
+					"padding-top" : "0px"
+				});
+			}
 		</script>
 	</body>
 </html>

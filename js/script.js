@@ -106,7 +106,13 @@ $(document).ready(function() {
 		document.getElementById("banner-date").style = "color: white";
 		document.getElementById("nombres").style = "color: white";
 		document.getElementById("banner-home").className += " whitey";
-		document.getElementById("homeimg").style = "background-image:url(images/12_mobile.jpg); background-position:top center";
+		document.getElementById("homeimg").style = "background-image:url(images/12_mobile.jpg); background-position:0% 0%";
+		$('#homeimg').css('background-image', 'url(images/12_mobile.jpg)');
+		$('#nombres').css('color','white');
+		$('#banner-date').css('color','white');
+		// $('#homeimg').css('background-position-y', '50%!important');
+
+
 	}
 
 	// 01.3 Check FIREFOX

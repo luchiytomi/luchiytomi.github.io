@@ -111,8 +111,9 @@ $(document).ready(function() {
 		$('#nombres').css('color','white');
 		$('#banner-date').css('color','white');
 		// $('#homeimg').css('background-position-y', '50%!important');
-
-
+		$('.fixToti').css('margin-bottom', '0px');
+		$('#dyc').attr('href', '#where-when');
+		$('#gsa').attr('href', '#gift-section');
 	}
 
 	// 01.3 Check FIREFOX
